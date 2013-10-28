@@ -1,0 +1,101 @@
+﻿Build started 5/15/2013 1:22:01 PM.
+     1>Project "C:\Users\walkout\Documents\Visual Studio 2010\Projects\boardWatcher\boardWatcher\boardWatcher.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\boardWatcher.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\walkout\Documents\Visual Studio 2010\Projects\boardWatcher\x64\Debug\boardWatcher.exe" /INCREMENTAL /NOLOGO opencv_core244d.lib opencv_highgui244d.lib opencv_imgproc244d.lib opencv_video244d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\boardWatcher.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\walkout\Documents\Visual Studio 2010\Projects\boardWatcher\x64\Debug\boardWatcher.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\walkout\Documents\Visual Studio 2010\Projects\boardWatcher\x64\Debug\boardWatcher.lib" /MACHINE:X64 x64\Debug\boardWatcher.exe.embed.manifest.res
+         x64\Debug\boardWatcher.obj
+         x64\Debug\ConfigOptions.obj
+     1>opencv_highgui244d.lib(opencv_highgui244d.dll) : fatal error LNK1112: module machine type 'X86' conflicts with target machine type 'x64'
+     1>Done Building Project "C:\Users\walkout\Documents\Visual Studio 2010\Projects\boardWatcher\boardWatcher\boardWatcher.vcxproj" (build target(s)) -- FAILED.
+
+Project Performance Summary:
+      265 ms  C:\Users\walkout\Documents\Visual Studio 2010\Projects\boardWatcher\boardWatcher\boardWatcher.vcxproj   1 calls
+                265 ms  build                                      1 calls
+
+Target Performance Summary:
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  BeforeLink                                 1 calls
+        0 ms  DoLinkOutputFilesMatch                     1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  ComputeReferenceCLInput                    1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  MakeDirsForCl                              1 calls
+        0 ms  ComputeManifestInputsTargets               1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  CreateCustomManifestResourceNames          1 calls
+        0 ms  _GenerateXMLData                           1 calls
+        0 ms  _GenerateWebServiceProxy                   1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  _DetermineManagedStateFromCL               1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  ComputeLinkInputsFromProject               1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  SplitResourcesByCulture                    1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  MakeDirsForLink                            1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  ComputeCLOutputs                           1 calls
+        0 ms  PrepareResourceNames                       1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  ComputeRCGeneratedLinkInputs               1 calls
+        0 ms  ComputeCLGeneratedLinkInputs               1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        1 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        1 ms  ComputeCustomBuildOutput                   1 calls
+        1 ms  AssignTargetPaths                          1 calls
+        1 ms  InitializeBuildStatus                      1 calls
+        1 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        1 ms  MakeDirsForResourceCompile                 1 calls
+        1 ms  _PrepareForBuild                           1 calls
+        1 ms  PrepareForBuild                            1 calls
+        1 ms  ResolveProjectReferences                   1 calls
+        1 ms  MakeDirsForMidl                            1 calls
+        1 ms  PreLinkEvent                               1 calls
+        2 ms  ManifestResourceCompile                    1 calls
+        7 ms  ClCompile                                  1 calls
+      239 ms  Link                                       1 calls
+
+Task Performance Summary:
+        0 ms  WriteLinesToFile                           1 calls
+        0 ms  AssignCulture                              1 calls
+        0 ms  AssignTargetPath                           4 calls
+        0 ms  Message                                    2 calls
+        0 ms  ReadLinesFromFile                          1 calls
+        0 ms  SetEnv                                     4 calls
+        1 ms  Touch                                      1 calls
+        1 ms  RC                                         1 calls
+        2 ms  MakeDir                                    7 calls
+        5 ms  CL                                         1 calls
+      239 ms  Link                                       1 calls
+
+Build FAILED.
+
+Time Elapsed 00:00:00.26

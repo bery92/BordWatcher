@@ -1,0 +1,7 @@
+MERC {
+	STORE_NAME		  : TEST
+	VIDEO_PATH        : D:\Video-M-Q\m\,D:\Video-M-Q\m\,D:\Video-M-Q\m\,D:\Video-M-Q\m\
+	MASK_PATH         : C:\Users\walkout\Documents\Visual Studio 2010\Projects\boardWatcher\boardWatcher\mask\,C:\Users\walkout\Documents\Visual Studio 2010\Projects\boardWatcher\boardWatcher\mask\,C:\Users\walkout\Documents\Visual Studio 2010\Projects\boardWatcher\boardWatcher\mask\,C:\Users\walkout\Documents\Visual Studio 2010\Projects\boardWatcher\boardWatcher\mask\
+	RESULT_PATH       : C:\Users\walkout\Documents\rez\
+	SAMPLE_RATE		  : 120
+	}
